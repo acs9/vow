@@ -957,8 +957,12 @@ a {
 .cid-t5saw2WOo3 P {
   color: #ffffff;
 }
-.cid-t5rVKf9OsN .navbar-dropdown {
-  position: relative !important;
+.cid-t5rVKf9OsN {
+  z-index: 1000;
+  width: 100%;
+}
+.cid-t5rVKf9OsN nav.navbar {
+  position: fixed;
 }
 .cid-t5rVKf9OsN .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1273,6 +1277,7 @@ a {
 }
 .cid-t5rVKf9OsN .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-t5rVKf9OsN a.nav-link {
   display: flex;
